@@ -1,5 +1,3 @@
-
-
 # Find two numbers that add together to sum to 2020.
 # Then return the answer when they are multiplied together
 
@@ -10,7 +8,6 @@ target = 2020
 for i in range(len(numbers)):
     for j in range(i+1, len(numbers)):
         if numbers[i] + numbers[j] == target:
-            print('Found it!')
             answer = numbers[i] * numbers[j]
             print("Answer = {}".format(answer))
             break
