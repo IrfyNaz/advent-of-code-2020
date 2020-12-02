@@ -7,17 +7,13 @@ with open('day2.in.test') as f:
 
 def checkPart1Rule(min, max, rule, password):
     characterCheck = password.count(rule)
-    if(min <= characterCheck and max >= characterCheck):
-        return True
-    return False
+    return(min <= characterCheck and max >= characterCheck)
 
 
 def checkPart2Rule(indexA, indexB, rule, password):
     aCheck = password[indexA-1] == rule
     bCheck = password[indexB-1] == rule
-    if(aCheck + bCheck == 1):
-        return True
-    return False
+    return(aCheck + bCheck == 1)
 
 
 def checkAnswer(lines, ruleFunction):
