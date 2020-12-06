@@ -3,7 +3,7 @@ from functools import reduce
 
 def readData(file):
     with open(file) as f:
-        return f.read().replace('\n\n', '|').split('|')
+        return f.read().split('\n\n')
 
 
 def part1(file):
