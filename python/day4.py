@@ -51,11 +51,11 @@ def part2(documents, mandatoryFields):
 
 
 # Part 1
-print(sum(part1(getData('day4.in.test'), mandatoryFields.keys())))
-print(sum(part1(getData('day4.in'),  mandatoryFields.keys())))
+print(sum(part1(getData('../inputs/day4.in.test'), mandatoryFields.keys())))
+print(sum(part1(getData('../inputs/day4.in'),  mandatoryFields.keys())))
 
 # Part 2
-print(part2(getData('day4.in.test'), mandatoryFields))
-print(part2(getData('day4-2-bad.in.test'), mandatoryFields))
-print(part2(getData('day4-2-good.in.test'), mandatoryFields))
-print(part2(getData('day4.in'), mandatoryFields))
+print(part2(getData('../inputs/day4.in.test'), mandatoryFields))
+print(part2(getData('../inputs/day4-2-bad.in.test'), mandatoryFields))
+print(part2(getData('../inputs/day4-2-good.in.test'), mandatoryFields))
+print(part2(getData('../inputs/day4.in'), mandatoryFields))

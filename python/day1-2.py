@@ -1,7 +1,7 @@
 # Find three numbers that add together to sum to 2020.
 # Then return the answer when they are multiplied together
 
-with open("day1.in") as f:
+with open("../inputs/day1.in") as f:
     numbers = [int(x) for x in f.readlines()]
 
 target = 2020

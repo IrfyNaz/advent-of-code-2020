@@ -37,10 +37,10 @@ def getSeatNumber(rowMap, columnMap):
     return rowNum * 8 + columnNum
 
 
-testData = readData('day5.in.test')
+testData = readData('../inputs/day5.in.test')
 print([getSeatNumber(x, y) for x, y in testData])
 
-data = readData('day5.in')
+data = readData('../inputs/day5.in')
 seats = [getSeatNumber(x, y) for x, y in data]
 print(max(seats))
 

@@ -1,8 +1,8 @@
 import math
 
-with open("day3.in") as f:
+with open("../inputs/day3.in") as f:
     data = [list(x) for x in f.read().splitlines()]
-with open("day3.in.test") as f:
+with open("../inputs/day3.in.test") as f:
     testData = [list(x) for x in f.read().splitlines()]
 
 

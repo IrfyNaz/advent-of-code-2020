@@ -1,7 +1,7 @@
-with open("day2.in") as f:
+with open("../inputs/day2.in") as f:
     data = f.read().splitlines()
 
-with open('day2.in.test') as f:
+with open('../inputs/day2.in.test') as f:
     testData = f.read().splitlines()
 
 
