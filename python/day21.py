@@ -39,6 +39,10 @@ def part1(lists):
     badCount = 0
     for v in confirmed.values():
         badCount += allIngredients.count(v)
+    print(f"Part 1: {len(allIngredients) - badCount}")
+
+    part2 = [confirmed[k] for k in sorted(confirmed)]
+    print(f"Part 2: {','.join(part2)}")
     return(len(allIngredients) - badCount)
 
 
